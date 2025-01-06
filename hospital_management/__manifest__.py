@@ -7,7 +7,7 @@
     'summary': 'Hospital Management App',
     'live_test_url': 'https://www.youtube.com/watch?v=0kaHMTtn7oY',
     'description': "Hospital Management",
-    'website': 'https://www.google.com',
+    'website': 'https://www.github.com/adil6055',
     'license': 'LGPL-3',
     'application': True
 }
