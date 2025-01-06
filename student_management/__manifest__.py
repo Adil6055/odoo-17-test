@@ -2,7 +2,7 @@
     'name': 'Student Management',
     'author': 'Adil',
     'license': 'LGPL-3',
-    'version': '17.0.0',
+    # 'version': '17.0.0',
 
 
     'category': 'Generic Modules',
