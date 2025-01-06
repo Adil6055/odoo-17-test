@@ -1,5 +1,5 @@
 {
-    'name': 'Hospital Management',
+    'name': 'Hospitals Management',
     'category': 'Generic Modules',
     'version': '1.0.0',
     'sequence': 1,
