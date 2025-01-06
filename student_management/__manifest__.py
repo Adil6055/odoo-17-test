@@ -1,13 +1,17 @@
 {
     'name': 'Student Management',
-    'category': 'Generic Modules',
-    'version': '1.0.0',
-    'sequence': 2,
     'author': 'Adil',
+    'license': 'LGPL-3',
+    'version': '17.0.0',
+
+
+    'category': 'Generic Modules',
+    'sequence': 2,
+   
     'summary': 'student Management App',
     'live_test_url': 'https://www.youtube.com/watch?v=0kaHMTtn7oY',
     'description': "Student Management",
-    'website': 'https://www.google.com',
-    'license': 'LGPL-3',
+    'website': 'https://www.github.com/adil6055',
+    
     'application': True
 }
