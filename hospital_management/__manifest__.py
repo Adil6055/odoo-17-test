@@ -1,6 +1,6 @@
 {
-    'name': 'Student Management',
-    'category': 'Generic Modules/Human Resources',
+    'name': 'Hospital Management',
+    'category': 'Generic Modules',
     'version': '1.0.0',
     'sequence': 1,
     'author': 'Adil',
