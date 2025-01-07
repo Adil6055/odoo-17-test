@@ -1,11 +1,11 @@
-# -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+ -*- coding: utf-8 -*-
+ Part of Odoo. See LICENSE file for full copyright and licensing details.
 # imported here to avoid dependency cycle issues
 # pylint: disable=wrong-import-position
 # from . import controllers
- from . import models
+# from . import models
 # from . import demo
 # from . import wizard
 # from . import report
 # from . import populate
-# from . imsport tools
+# from . import tools
