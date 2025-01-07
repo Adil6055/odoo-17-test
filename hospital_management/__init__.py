@@ -3,7 +3,7 @@
 # imported here to avoid dependency cycle issues
 # pylint: disable=wrong-import-position
 # from . import controllers
-# from . import models
+ from . import models
 # from . import demo
 # from . import wizard
 # from . import report
