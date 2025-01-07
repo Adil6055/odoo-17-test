@@ -2,6 +2,9 @@
     'name': 'Hospital Management',
     'category': 'Generic Modules',
     'version': '17.0.1.1',
+    "data" : [
+
+    ]
     'sequence': 1,
     'author': 'Adil',
     'summary': 'Hospital Management App',
