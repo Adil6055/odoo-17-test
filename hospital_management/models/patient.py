@@ -1,4 +1,3 @@
-from odoo import api, models,
 
 
 class HospitalPatient (models.Model):
