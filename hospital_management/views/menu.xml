@@ -2,13 +2,7 @@
 <odoo>
 
     <menuitem id="menu_hospital_root"
-                name="HMS" />
-
-    
-
-
-
-
+              name="HMS"/>
 
 </odoo>
 
