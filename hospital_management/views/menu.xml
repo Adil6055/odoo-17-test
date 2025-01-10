@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-
+   <menuitem id="menu_hospital_root"
+            name="HMS"
+   />
     <menuitem id="menu_hospital_root"
-              name="HMS"/>
+            name="front Desk"
+            parent = "menu_hospital_root"
+    />
+
+</odoo>
+
+
+    
+
+
+
+
 
 </odoo>
 
