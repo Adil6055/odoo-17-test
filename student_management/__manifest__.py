@@ -6,12 +6,11 @@
 
     #
     # 'category': 'Generic Modules',
-    # 'sequence': 2,
+    'sequence': 3,
     #
     # 'summary': 'student Management App',
     # 'live_test_url': 'https://www.youtube.com/watch?v=0kaHMTtn7oY',
-    # 'description': "Student Management",
-    # 'website': 'https://www.github.com/adil6055',
-    #
-    # 'application': True
+    'description': "Student Management",
+    'website': 'https://www.github.com/adil6055',
+    'application': True
 }
