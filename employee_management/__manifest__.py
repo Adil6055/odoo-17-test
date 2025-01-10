@@ -8,7 +8,8 @@
 Long description of module's purpose
     """,
 
-    'author': "My Company",
+    'author': "Sacffold",
+    'sequence': 1,
     'website': "https://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
