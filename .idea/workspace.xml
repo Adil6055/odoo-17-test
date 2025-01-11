@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74fb48b0-7453-47dc-a944-6c718ed195ad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/hospital_management/__manifest__.py" beforeDir="false" afterPath="$PROJECT_DIR$/hospital_management/__manifest__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hospital_management/views/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hospital_management/views/menu.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
