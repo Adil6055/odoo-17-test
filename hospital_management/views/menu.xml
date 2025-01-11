@@ -12,6 +12,7 @@
     <menuitem id="menu_patient"
               name="patient"
               parent="menu_frontdesk"
+              acttion="action_hospital_patient"
     />
 
 
