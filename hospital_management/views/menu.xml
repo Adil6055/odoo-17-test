@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
+
    <menuitem id="menu_hospital_root"
             name="HMS"
    />
-    <menuitem id="menu_hospital_root"
-            name="front Desk"
-            parent = "menu_hospital_root"
+
+    <menuitem id="menu_frontdesk"
+              name="Front Desk"
+              parent="menu_hospital_root"
     />
+    <menuitem id="menu_patient"
+              name="patient"
+              parent="menu_frontdesk"
+    />
+
 
 </odoo>
