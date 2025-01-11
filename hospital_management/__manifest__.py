@@ -3,6 +3,7 @@
     'category': 'Generic Modules',
     'version': '17.0.1.1',
     "data": [
+        "views/patients_views.xml",
         "views/menu.xml"
     ],
     'sequence': 1,
