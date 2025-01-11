@@ -3,6 +3,7 @@
     'category': 'Generic Modules',
     'version': '17.0.1.1',
     "data": [
+        "security/ir.model.access.csv",
         "views/patients_views.xml",
         "views/menu.xml",
     ],
