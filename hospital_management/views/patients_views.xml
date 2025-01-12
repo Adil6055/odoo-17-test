@@ -2,8 +2,8 @@
 <odoo>
 
 
-    <record model="ir.ui.view" id="view_decimal_precision_tree">
-        <field name="name">Decimal Precision List</field>
+    <record id="view_hospital_patient_tree" model="ir.ui.view">
+        <field name="name">Dhospital.patient.tree</field>
         <field name="model">decimal.precision</field>
         <field name="arch" type="xml">
             <tree string="Decimal Precision">
