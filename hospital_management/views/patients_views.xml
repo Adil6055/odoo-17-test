@@ -6,9 +6,9 @@
         <field name="model">hospital.patient</field>
         <field name="arch" type="xml">
             <tree string="Patients">
-                <field name="name"/>
+                <field name="name" optional="hide"/>
                 <field name="date_of_birth"/>
-                <field name="gender"/>
+                <field name="gender" optional="hide"/>
             </tree>
         </field>
     </record>
@@ -18,18 +18,23 @@
         <field name="model">hospital.patient</field>
         <field name="arch" type="xml">
             <form string="Patients">
-                <group>
+                <sheet>
                     <group>
-                        <field name="name" string="Patient Name"/>
-                        <field name="date_of_birth"/>
-                    </group>
-                    <group>
+                        <group>
+                            <field name="name" string="Patient Name"/>
+                            <field name="date_of_birth"/>
+                        </group>
+                        <group>
                             <field name="gender"/>
+                        </group>
+
                     </group>
 
-
-
-                </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" options="{'open_attachments': True}"/>
+                    <field name="message_ids"/>
+                </div>
 
             </form>
         </field>

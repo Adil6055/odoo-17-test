@@ -8,6 +8,7 @@
         "views/menu.xml",
     ],
     'sequence': 1,
+    'depends':['mail'],
     'author': 'Adil',
     'summary': 'Hospital Management App',
     # 'live_test_url': 'https://www.youtube.com/watch?v=0kaHMTtn7oY',
