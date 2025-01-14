@@ -19,9 +19,15 @@
         <field name="arch" type="xml">
             <form string="Patients">
                 <group>
-                    <field name="name" string="Patient Name"/>
-                    <field name="date_of_birth"/>
-                    <field name="gender"/>
+                    <group>
+                        <field name="name" string="Patient Name"/>
+                        <field name="date_of_birth"/>
+                    </group>
+                    <group>
+                            <field name="gender"/>
+                    </group>
+
+
 
                 </group>
 
