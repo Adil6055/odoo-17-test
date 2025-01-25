@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Asset_Management"
+    'name': "Asset Management"
             "",
 
     'summary': "Asset Management App to Manage Assets",

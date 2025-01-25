@@ -4,7 +4,9 @@
     'version': '17.0.1.1',
     "data": [
         "security/ir.model.access.csv",
+        "data/sequence.xml",
         "views/patients_views.xml",
+        "views/appointment_views.xml",
         "views/menu.xml",
     ],
     'sequence': 1,

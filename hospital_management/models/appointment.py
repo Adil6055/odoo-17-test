@@ -1,18 +1,24 @@
-from odoo import api,  fields, models
+from docutils.nodes import reference
+from odoo import api, fields, models
+from xlsxwriter.contenttypes import defaults
 
 
-class HospitalAppointment (models.Model):
+class HospitalAppointment(models.Model):
     _name = "hospital.appointment"
-    _description="Patient Appointment Master Data"
-    _inherit=['mail.thread']
+    _description = "Patient Appointment Master Data"
+    _inherit = ['mail.thread']
+    _rec_name = 'patient_id'
 
-
+    reference = fields.Char(string="Reference", default="New")
     patient_id = fields.Many2one('hospital.patient', string="Patient")
     date_appointment = fields.Date(string="Date")
-    Notes = fields.Text(string="Notes")
-
-    name = fields.Char(string="Name", required=True, tracking=True)
-    date_of_birth = fields.Date(string="DOB")
-    gender = fields.Selection ([('male', 'Male'), ('female','Female')],string="Gender")
+    notes = fields.Text(string="Notes")
 
 
+    @api.model_create_multi
+    def create(self, vals_list):
+        print("test", vals_list)
+        for vals in vals_list:
+            if not vals.get('reference') or vals['reference'] == 'New':
+                vals['reference'] = self.env['ir.sequence'].next_by_code('hospital.appointment')
+        return super().create(vals_list)
