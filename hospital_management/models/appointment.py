@@ -10,9 +10,9 @@ class HospitalAppointment(models.Model):
     _rec_name = 'patient_id'
 
     reference = fields.Char(string="Reference", default="New")
-    patient_id = fields.Many2one('hospital.patient', string="Patient")
-    date_appointment = fields.Date(string="Date")
-    notes = fields.Text(string="Notes")
+    patient_id = fields.Many2one('hospital.patient', string="Patient", required=True)
+    date_appointment = fields.Date(string="Date", required=True)
+    notes = fields.Text(string="Notes", required=True)
 
 
     @api.model_create_multi
